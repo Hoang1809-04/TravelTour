@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Trong Nước</title>
+    <link rel="icon" href="../Img/TravelTour.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <header>
+                <a href=""><img src="../Img/TravelTourUp.png" alt=""></a>
+                <div class="contact">
+                    <a href="#"><i class="bi bi-envelope"></i><span>Email: tourdulich@gmial.com</span></a>
+                    <a href="#"><i class="bi bi-telephone"></i><span>Hotline: 0123456789</span></a>
+                    <div class="color">
+                        <div id="c1"></div>
+                        <div id="c2"></div>
+                        <div id="c3"></div>
+                    </div>
+                    <div class="login">
+                        <a href="../FormDangKy/form.html" target="_blank">Đăng Nhập</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="menu">
+            <i class="bi bi-list"></i>
+        </div>
+        <nav>
+            <ul class="container-nav">
+                <li><a href="../index.html"><i class="bi bi-house"></i>Trang chủ</a></li>
+                <li><a href=""><i class="bi bi-person-vcard"></i>Giới thiệu</a></li>
+                <li> <a href=""><i class="bi bi-newspaper"></i>Tin tức</a></li>
+                <li class="menu-parent"><a href="./index.html"><i class="bi bi-car-front"></i>Tour trong nước</a>
+                    <ul class="menu-child">
+                        <li><a href="">Hà Nội</a></li>
+                        <li><a href="">Huế</a></li>
+                        <li><a href="">Đà Nẵng</a></li>
+                        <li><a href="">TP.Hồ Chí Minh</a></li>
+                    </ul>
+                </li>
+                <li class="menu-parent"><a href=""><i class="bi bi-airplane"></i>Tour trong quốc tế</a>
+                    <ul class="menu-child">
+                        <li><a href="">Hàn Quốc</a></li>
+                        <li><a href="">Nhật Bản</a></li>
+                        <li><a href="">Trung Quốc</a></li>
+                        <li><a href="">Mỹ</a></li>
+                    </ul>
+                </li>
+                <li><a href=""><i class="bi bi-telephone"></i>Liên hệ</a></li>
+            </ul>
+        </nav>
+        <h1 class="title-search">
+            Tour Trong Nước
+        </h1>
+    </div>
+    <div class="box-search">
+        <div class="search">
+            <div class="search-text">
+                <input type="text" name="" id="input" placeholder="Tìm tour">
+                <i class="bi bi-search"></i>
+            </div>
+            <input type="date" name="" class="none" id="from-date">
+            <input type="date" name="" class="none" id="to-date">
+            <button class="btn-search none">Tìm Kiếm</button>
+        </div>
+    </div>
+    <main>
+        <section class="list-tour">
+            <article>
+                <a href="../Chitiet/index.html" class="imga"><img src="../Img/ha-noi-phoco-hôi-an.jpg" alt=""></a>
+                <div class="content">
+                    <h3 class="tour"><a href="../Chitiet/index.html">Du lịch Hà Nội - Phố Cổ Hội An</a></h3>
+                    <p class="location"><b>Hà Nội - Đà Nẵng</b></p>
+                    <p>Thời gian: 4 ngày 3 đêm</p>
+                    <p>Phương tiện: Máy Bay + Ô tô</p>
+                </div>
+                <div class="set">
+                    <p>6.500.000 VNĐ</p>
+                    <input type="date" id="date">
+                </div>
+            </article>
+            <article>
+                <a href="" class="imga"><img src="../Img/dulichnhatrang.jpg" alt=""></a>
+                <div class="content">
+                    <h3 class="tour"><a href="">Du lịch Nha Trang</a></h3>
+                    <p class="location"><b>Nha Trang</b></p>
+                    <p>Thời gian: 4 ngày 3 đêm</p>
+                    <p>Phương tiện: Máy Bay + Ô tô</p>
+                </div>
+                <div class="set">
+                    <p>2.300.000 VNĐ</p>
+                    <input type="date" id="date">
+                </div>
+            </article>
+            <article>
+                <a href="" class="imga"><img src="../Img/quynhon-eogio.jpg" alt=""></a>
+                <div class="content">
+                    <h3 class="tour"><a href="">Du lịch Quy Nhơn - Đảo Kỳ Co</a></h3>
+                    <p class="location"><b>Tuy Hòa - Quy Nhơn</b></p>
+                    <p>Thời gian: 4 ngày 3 đêm</p>
+                    <p>Phương tiện: Ô tô</p>
+                </div>
+                <div class="set">
+                    <p>4.900.000 VNĐ</p>
+                    <input type="date" id="date">
+                </div>
+            </article>
+            <article>
+                <a href="" class="imga"><img src="../Img/dulich-phuquoc.jpg" alt=""></a>
+                <div class="content">
+                    <h3 class="tour"><a href="">Du lịch Đảo Phú Quốc</a></h3>
+                    <p class="location"><b>Phú Quốc</b></p>
+                    <p>Thời gian: 4 ngày 3 đêm</p>
+                    <p>Phương tiện: Máy Bay + Ô tô</p>
+                </div>
+                <div class="set">
+                    <p>10.500.000 VNĐ</p>
+                    <input type="date" id="date">
+                </div>
+            </article>
+            <article>
+                <a href="" class="imga"><img src="../Img/dulichhaiphong.jpg" alt=""></a>
+                <div class="content">
+                    <h3 class="tour"><a href="">Du lịch Hải Phòng - Chùa Địa Tạng Phi Lai Hà Nam</a></h3>
+                    <p class="location"><b>Hải Phòng - Hà Nam</b></p>
+                    <p>Thời gian: 1 ngay</p>
+                    <p>Phương tiện: Ô tô</p>
+                </div>
+                <div class="set">
+                    <p>2.000.000 VNĐ</p>
+                    <input type="date" id="date">
+                </div>
+            </article>
+        </section>
+        <section class="count-tour">
+            <ul class="pagination">
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li>..</li>
+                <li><a href="">></a></li>
+                <li><a href="">>></a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div class="contact">
+                <h2>LIÊN HỆ</h2>
+                <hr>
+                <p>Phường Tân Chánh Hiệp, Q.12, TP>HCM</p>
+                <p>Email: dulichviet@gmail.com</p>
+                <p>0123456789 - 0987654321</p>
+                <p>Mã số thuế: 011223344</p>
+                <p>GPKD lữ hành quốc tế số 79-400/2023/TCDL</p>
+            </div>
+            <div class="map">
+                <h2>BẢN ĐỒ</h2>
+                <hr>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15674.069140162392!2d106.61734189999999!3d10.84820495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1684897440437!5m2!1svi!2s"
+                    width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="social">
+                <h2>KẾT NỐI</h2>
+                <hr>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-youtube"></i>
+                <p>Đăng ký nhận tin khuyến mãi</p>
+                <input type="text" id="input" placeholder="Nhập email nhận khuyến mãi" width="90%">
+                <button class="btn">Đăng ký</button>
+            </div>
+            <div class="pay">
+                <h2>THANH TOÁN</h2>
+                <hr>
+                <div class="image">
+                    <div class="img">
+                        <img src="../Img/card.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="../Img/cardvisa.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="../Img/jcb.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="../Img/vietinbank.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="../Img/vnpay-logo.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="../Img/cardhide.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <img class="zalo" src="../Img/Logo-Zalo-Arc.webp" alt="">
+    <img class="message" src="../Img/logo-messenger-inkythuatso-2-01-30-15-47-51-removebg-preview.png" alt="">
+</body>
+<script>
+    $(document).ready(function () {
+        $(".menu").click(function () {
+            $("nav").slideToggle();
+        });
+    });
+</script>
+<script src="./main.js"></script>
+
+</html>
